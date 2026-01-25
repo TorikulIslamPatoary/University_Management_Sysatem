@@ -19,13 +19,14 @@
 
 <section class="form-box">
     <h2>Add Student</h2>
-    <form>
-        <input type="text" placeholder="Student Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="text" placeholder="Phone">
-        <input type="number" placeholder="Admission Year">
-        <button type="submit">Save</button>
-    </form>
+ <form action="addStudent" method="post">
+    <input type="text" name="student_name" placeholder="Student Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="phone" placeholder="Phone">
+    <input type="number" name="admission_year" placeholder="Admission Year">
+    <button type="submit">Save</button>
+ </form>
+
 </section>
 
 </body>
